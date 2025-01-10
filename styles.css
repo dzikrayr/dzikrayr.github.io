@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .header {
+    background: #006400;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  .header h1 {
+    text-align: center;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .hero {
+    background: #f4f4f4;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .hero button {
+    background: #006400;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .about, .blog, .contact {
+    padding: 20px 0;
+  }
+  
+  .blog #blog-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .blog-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background: #fff;
+  }
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .contact form input, .contact form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .contact form button {
+    background: #006400;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .footer {
+    background: #006400;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
